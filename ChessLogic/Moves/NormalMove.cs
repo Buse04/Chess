@@ -17,8 +17,8 @@ public class NormalMove : Move
 
     public NormalMove(Position from, Position to)
     {
-        from = FromPosition;
-        to = ToPosition;
+        FromPosition = from;
+        ToPosition = to;
     }
     
     
